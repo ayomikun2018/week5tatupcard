@@ -75,10 +75,13 @@ h4{
     -moz-box-shadow: -18px 20px 5px -17px rgba(191,191,191,0.75);
 }
 .div-two{
-    margin-top:7rem;
+    margin-top:3rem;
     margin-left: 30rem;
     width: 29.438rem;
-    height: 16.125rem; 
+    height: auto; 
+    padding-bottom: 19px;
+    padding-top:14px;
+    /* margin-bottom: 20px; */
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     box-shadow: -18px 20px 5px -17px rgba(191,191,191,0.75);
@@ -88,14 +91,40 @@ h4{
 
 .first-line{
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     flex-direction: row;
     background : linear-gradient(130deg,#32A2E1 80%,#FFFFFF 20%);
     height: 59px;
     width: 420px;
-    margin-top: 40px;
-    padding-top: 14 rem;  
+    margin-left: 29px;
+    /* margin-top: 14px; */
+    /* padding-top: 14px;   */
 }
+.firstclass{
+    background-image: url("./images/Rectangle\ 3.svg");
+    display: flex;
+    flex-direction: row;
+    width: 382px;
+    height: 59px;
+    position:relative;
+    /* margin-top: 14px; */
+}
+.firstclasstwo{
+    /* border:1px solid green; */
+    height:38px;
+    width:229px;
+    position:absolute;
+    top:15px;
+    left:74px;
+}
+.firstclassone{
+    position:absolute; 
+    top:22px;
+    left:27px;
+    color: white;
+
+}
+
 input{
     margin-top: 10px;
     margin-left: 10px;
@@ -103,6 +132,7 @@ input{
     height: 43px;
     width: 229px; 
     color: white;
+    border:none;
 }
 .Pin{
     margin-top: 20px;
@@ -126,6 +156,10 @@ input{
     line-height:1.5;
     padding-top: 14px;
     
+}
+.nairatwo{
+    
+    line-height:23px; 
 }
 u{
     font-weight: 300;
@@ -152,7 +186,6 @@ b{
     flex-direction: row;
     border-top: 1px solid #AAA6A6;
     border-bottom: 1px solid #AAA6A6;
-    margin-bottom: 30px;
     line-height:22px;
     font-size:13px;  
 }
@@ -164,10 +197,8 @@ b{
 }
 .barcode{
     margin-left: 200px;
-    height: 40px;
-    width: 10px;
-    margin-top: 10px;
-    padding-top: 15px;
+    margin-top: 12px;
+    margin-bottom: 0px;   
 }
 
 
