@@ -94,9 +94,7 @@ h4{
     height: 59px;
     width: 420px;
     margin-top: 40px;
-    /* margin-right: 60px; */
-    padding-top: 14 rem;
-    /* border:1px solid green; */
+    padding-top: 14 rem;  
 }
 input{
     margin-top: 10px;
